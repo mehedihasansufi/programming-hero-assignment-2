@@ -1,3 +1,8 @@
+
+:root{
+    --sky-blue-color:#0088FF;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +14,26 @@
     color: white;
     padding: .6rem 2.9rem;
     border-radius: 12px;
+    transition: all 0.3s ease-in ;
 }
+.btn button:hover{
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+   
+}
+.heading{
+    font-size: 3.1rem;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0,0.5);
+    font-weight: 600;
+}
+
+
+
 header{
     width: 80%;
     margin: 2rem auto 0 auto;
@@ -34,7 +58,7 @@ header{
 nav ul{
 
     display: flex;
-    gap: 1.7rem;
+    gap: 3.7rem;
    
 }
 
@@ -53,7 +77,7 @@ ul li a{
 }
 
 #about{
-    color: skyblue;
+    color: var(--sky-blue-color);
 }
 
 #Facilities{
@@ -62,4 +86,108 @@ ul li a{
 
 #Admission{
     color: #5D58EF;
+}
+.menu-icon{
+    display: none;
+}
+
+hr{
+    margin-top: 1.3rem;
+    border: none;
+    height: 1px;
+    background-color: orange;
+    opacity: 0.7;
+    display: none;
+}
+
+
+/* banner */
+
+
+.banner-container{
+    width: 80%;
+    margin: 1.5rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-contain{
+    width: 40%;
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   
+}
+
+.banner-contain .btn button{
+    background-color: black;
+}
+
+.banner-contain .btn button:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.banner-picture img{
+    height:450px ;
+   
+}
+
+
+#orange{
+    color: orange;
+}
+
+#sky-blue{
+    color: var(--sky-blue-color);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================= */
+/* ============================================== */
+
+@media screen and (max-width:576px) {
+    header{
+        width: 90%;
+    }
+    .logo h2,nav, header button{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 1.5rem;
+    }
+    hr{
+        display: block;
+    }
+
+    .banner-container{
+    width: 90%;
+    flex-direction: column-reverse;
+
+}
+.heading{
+    font-size: 2.2rem;
+}
+.banner-contain{
+    width: 95%;
+   text-align: center;
+   margin-top: 2rem;
+}
+
+
+
 }
