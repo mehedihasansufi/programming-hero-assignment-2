@@ -148,9 +148,130 @@ hr{
 
 
 
+/* standard */
+
+.standard{
+    background-image: url(../assets/bg.png);
+}
+
+.standard-container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.standard-contain{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.2rem;
+}
+.standard-container h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-sky {
+   
+    background: linear-gradient(to bottom, #DEF5FF 0%, #ffffff 100%);
+    
+   padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    
+    border: 1px solid #e0f2ff; 
+   
+}
+
+.card-shy {
+   
+    background: linear-gradient(to bottom, #FFF4DC 0%, #ffffff 100%);
+    
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    
+    border: 1px solid #e0f2ff; 
+   
+}
+
+
+.card-she {
+   
+    background: linear-gradient(to bottom, #F2E8FF 0%, #ffffff 100%);
+    
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    
+    border: 1px solid #e0f2ff; 
+   
+}
 
 
 
+
+.card-contain{
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.card-contain h3{
+    font-size: 1.3rem;
+}
+
+.card-contain p{
+    font-size: 1rem;
+    color: rgba(0, 0, 0,0.7);
+}
+.card-contain .sky{
+    color: rgba(0, 136, 255,0.8);
+}
+
+
+.card-contain .shy{
+    color: #F0AA00;
+}
+
+.card-contain .she{
+    color: #8700FF;
+}
+
+
+.card img{
+    height: 100px;
+}
+
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.2rem;
+}
+
+
+.arrow a{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: .8rem;
+    font-size: 1.7rem;
+    color: white;
+}
 
 
 
@@ -188,6 +309,24 @@ hr{
    margin-top: 2rem;
 }
 
+.banner-picture{
+   width: 90%;
+   
+}
 
+.banner-picture img{
+    height: 100%;
+    width: 100%;
+}
+.standard-container{
+    width: 90%;
+    margin: 2.5rem auto 0 auto;
+    
+}
+.standard-contain{
+    
+    grid-template-columns: repeat(1, 1fr);
+   
+}
 
 }
