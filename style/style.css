@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn button{
+    font-size: 1.1rem;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: .6rem 2.9rem;
+    border-radius: 12px;
+}
+header{
+    width: 80%;
+    margin: 2rem auto 0 auto;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.logo img{
+    height: 50px;
+}
+
+nav ul{
+
+    display: flex;
+    gap: 1.7rem;
+   
+}
+
+nav ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+   
+}
+
+#home{
+    color: orange;
+}
+
+#about{
+    color: skyblue;
+}
+
+#Facilities{
+    color: #05D4DF;
+}
+
+#Admission{
+    color: #5D58EF;
+}
