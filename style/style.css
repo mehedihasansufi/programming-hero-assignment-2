@@ -399,6 +399,83 @@ hr{
 #third{
    background-color: #5D58F0;
 }
+
+
+
+
+
+
+/* footer */
+
+
+
+
+footer{
+    background-color: #01ACFD;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.education{
+    width: 30%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.education p{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h2{
+    font-size: 1.9rem;
+}
+.logo img{
+   
+    height: 80px;
+}
+.school{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.school ul{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.school ul li{
+    list-style: none;
+   
+
+}
+
+.school ul li a{
+    color: white;
+   
+}
+
+.keep{
+    background-color: red;
+}
 /* ============================================= */
 /* ============================================== */
 
@@ -451,15 +528,31 @@ hr{
     grid-template-columns: repeat(1, 1fr);
    
 }
-
+.stories-container{
+    width: 95%;
+    margin: auto;
+    padding-top: 5rem;
+}
 .big{
     display: none;
 }
 
+.card{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+   width: 100%;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+   
+}
+.card img{
+    height: 100px;
+    width: 100%;
+}
 .more-card{
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
     gap: 2.2rem;
     align-items: center;
 }
