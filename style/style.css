@@ -412,6 +412,7 @@ hr{
 
 footer{
     background-color: #01ACFD;
+   
     opacity: .8;
     display: flex;
     justify-content: center;
@@ -438,6 +439,7 @@ footer{
 .education p{
     font-size: 1.1rem;
     text-align: justify;
+    color: rgba(255, 255, 255,0.8);
 }
 .logo{
     display: flex;
@@ -469,13 +471,36 @@ footer{
 }
 
 .school ul li a{
-    color: white;
+    color: rgba(255, 255, 255,0.8);
    
 }
 
 .keep{
-    background-color: red;
+   display: flex;
+   flex-direction: column;
+   gap: .9rem;
+   align-items: center;
 }
+
+.keep ul{
+    display: flex;
+    gap: .6rem;
+}
+
+.keep ul li{
+    list-style: none;
+}
+
+.keep ul li a{
+    text-decoration: none;
+}
+
+
+.keep ul li a img{
+    height: 30px;
+}
+
+
 /* ============================================= */
 /* ============================================== */
 
@@ -555,6 +580,33 @@ footer{
    grid-template-columns: repeat(2, 1fr);
     gap: 2.2rem;
     align-items: center;
+}
+footer{
+    padding: 5rem 0 2rem 0;
+}
+.footer-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    color: white;
+   
+}
+
+.education{
+    width:100%;
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.education .logo h2{
+    display: block;
+}
+.keep{
+  
+   align-items: start;
 }
 
 }
